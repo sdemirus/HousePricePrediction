@@ -1,5 +1,40 @@
+Model Metrics Summary
+
+Model: Linear Regression
+Performance:
+- R2 Score: Negative
+- Remarks: Extremely high errors, not suitable for prediction in this dataset.
+
+Model: Decision Tree
+Performance:
+- R2 Score: Moderate
+- Remarks: Moderate performance with moderate errors.
+
+Model: Random Forest
+Performance:
+- R2 Score: High
+- Remarks: Good performance with low errors.
+
+Model: Gradient Boosting
+Performance:
+- R2 Score: High
+- Remarks: Strong performance with low errors.
+
+Model: K-Nearest Neighbors (KNN)
+Performance:
+- R2 Score: Moderate
+- Remarks: Moderate performance with moderate errors.
+
+Model: Support Vector Machine (SVM)
+Performance:
+- R2 Score: Moderate
+- Remarks: Moderate performance with moderate errors.
+
 Model: XGBoost
-Features: Various features related to residential properties
+Performance:
+- R2 Score: High
+- Remarks: Excellent performance with low errors, best model for predicting house prices in this dataset.
+- Cross-Validation RMSE: Lowest among models tested.
 Parameters: Optimized hyperparameters
 Performance Metrics:
 - Root Mean Squared Error (RMSE): 0.2712636128249037
@@ -7,3 +42,17 @@ Performance Metrics:
 - Mean Squared Error (MSE): 0.07358394764281924
 - R-squared Score (R2): 0.9101650891186499
 - Cross-Validation Root Mean Squared Error: 0.3559607388261276
+
+Recommendations:
+1. Use XGBoost model for predicting house prices.
+2. Monitor and retrain the model regularly with updated data.
+3. Further optimize and fine-tune hyperparameters to enhance performance.
+
+Model,Performance,R2 Score,Remarks
+Linear Regression,Very Poor,Negative,Extremely high errors, not suitable for prediction in this dataset.
+Decision Tree,Moderate,Moderate,Moderate performance with moderate errors.
+Random Forest,Good,High,Good performance with low errors.
+Gradient Boosting,Strong,High,Strong performance with low errors.
+K-Nearest Neighbors (KNN),Moderate,Moderate,Moderate performance with moderate errors.
+Support Vector Machine (SVM),Moderate,Moderate,Moderate performance with moderate errors.
+XGBoost,Excellent,High,Excellent performance with low errors, best model for predicting house prices in this dataset.

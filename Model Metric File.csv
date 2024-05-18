@@ -1,0 +1,9 @@
+Model: XGBoost
+Features: Various features related to residential properties
+Parameters: Optimized hyperparameters
+Performance Metrics:
+- Root Mean Squared Error (RMSE): 0.2712636128249037
+- Mean Absolute Error (MAE): 0.17896590050184366
+- Mean Squared Error (MSE): 0.07358394764281924
+- R-squared Score (R2): 0.9101650891186499
+- Cross-Validation Root Mean Squared Error: 0.3559607388261276
